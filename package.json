@@ -1,11 +1,15 @@
 {
   "name": "@vertisanpro/vite-plugin-laravel-translations",
-  "version": "0.2.2-v5",
+  "version": "0.2.2-v6",
   "private": false,
   "type": "module",
   "main": "./dist/vite.js",
   "description": "Vite Plugin to make Laravel Translations globally available as JSON field.",
   "author": "Dcode Group",
+  "files": [
+    "./dist/",
+    "./types/"
+  ],
   "scripts": {
     "clear": "rimraf dist && mkdirp dist",
     "build": "pnpm run clear && tsc",

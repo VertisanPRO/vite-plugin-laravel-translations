@@ -1,8 +1,8 @@
 import { fromString } from 'php-array-reader';
 import { globSync } from 'glob';
 import path from 'node:path';
-import { TranslationConfiguration } from '../types';
-import { mergeDeep } from './utils/mergeDeep';
+import { TranslationConfiguration } from '../types/index.js';
+import { mergeDeep } from './utils/mergeDeep.js';
 import { readFileSync } from 'node:fs';
 
 const globPattern = (shouldIncludeJson: boolean): string => (shouldIncludeJson ? '**/*.{json,php}' : '**/*.php');

@@ -1,6 +1,6 @@
 {
   "name": "@vertisanpro/vite-plugin-laravel-translations",
-  "version": "0.2.2-v6",
+  "version": "0.2.2-v7",
   "private": false,
   "type": "module",
   "main": "./dist/vite.js",
